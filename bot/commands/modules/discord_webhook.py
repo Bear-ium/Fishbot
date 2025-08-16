@@ -1,9 +1,6 @@
 import requests
 from typing import Optional
 
-import requests
-from typing import Optional
-
 class Webhook:
     def __init__(self, url: str, default_username: Optional[str] = None, default_avatar_url: Optional[str] = None):
         self.url = url
